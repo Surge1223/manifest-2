@@ -10,12 +10,13 @@
   <project path="art" name="platform/art" groups="pdk" remote="aosp" />
   <project path="bionic" name="bionic" groups="pdk" remote="gzosp" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="aosp" />
-  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="gzosp" >
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="aosp" >
       <linkfile src="root.bp" dest="Android.bp" />
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+ <project path="system/vold" name="system_vold" groups="pdk" remote="aosp" />
+ <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="aosp" />
-
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" remote="aosp" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />

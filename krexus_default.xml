@@ -40,6 +40,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="krexus" />
   <project path="system/core" name="android_system_core" remote="surge" revision="o-mr1" />
   <project path="hardware/qcom/msm8998" name="platform/hardware/qcom/msm8998" remote="aosp"  />
+  <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="surge" revision="o-mr1" />
 
   <!-- Vendor Source -->
   <project path="vendor/google" name="proprietary_vendor_google" groups="pdk" remote="surge" revision="android-8.1" />
