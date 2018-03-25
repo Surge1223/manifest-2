@@ -14,9 +14,6 @@
 
   <!-- GZOSP -->
   <project path="build/kati" name="build_kati" groups="pdk,tradefed" remote="gzosp" />
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
 
   <project path="development" name="development" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
   <project path="external/connectivity" name="external_connectivity" groups="pdk" remote="gzosp" />
