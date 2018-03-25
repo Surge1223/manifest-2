@@ -4,10 +4,14 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/"
-           revision="refs/tags/android-8.1.0_r18"/>
+           revision="refs/tags/android-8.1.0_r15"/>
 
   <!-- AOSP -->
   <project path="art" name="platform/art" groups="pdk" remote="aosp" />
+  <project path="bionic" name="bionic" groups="pdk" remote="gzosp" />
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="aosp" />
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="aosp" />
+
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" remote="aosp" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />

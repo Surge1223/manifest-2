@@ -17,7 +17,7 @@ Manifest
 **Android 8.1.x** (latest is 8.1.0_r18)
 
 1. Initialize the manifest repo		
-`repo init -u https://github.com/krexus/manifest.git -b o+`
+`repo init -u https://github.com/Surge1223/manifest-2.git -b o+`
 
 2. Sync		
 `repo sync`
