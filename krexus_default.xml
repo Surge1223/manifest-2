@@ -51,7 +51,7 @@
   <!-- Device Source -->
   <project path="device/google/taimen" name="android_device_google_taimen" groups="pdk" remote="surge" revision="o-mr1" />
   <project path="device/google/wahoo" name="android_device_google_wahoo" groups="pdk" remote="surge" revision="android-8.1" />
-  <project path="device/lge/bullhead" name="android_device_lge_bullehead" groups="pdk" remote="surge" revision="o+" />
+  <project path="device/lge/bullhead" name="device_lge_bullhead" groups="pdk" remote="surge" revision="o+" />
 
   <!-- Kernel Source -->
   <project  path="kernel/google/taimen" name="android_kernel_google_taimen" groups="device,angler,broadcom_pdk" remote="surge" revision="android-msm-wahoo-4.4-oreo-mr1" />
