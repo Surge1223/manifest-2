@@ -22,6 +22,12 @@
           fetch="https://github.com/PureNexusProject-Legacy"
           sync-c="true"
           sync-j="8" />
+          
+<remote  name="aosp"
+          fetch="https://android.googlesource.com"
+          review="https://android-review.googlesource.com/"
+          revision="refs/tags/android-8.1.0_r15"/>
+
 
   <!-- Krexus -->
   <project path="manifest" name="manifest-2" remote="surge" />
