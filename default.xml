@@ -8,7 +8,7 @@
 
   <!-- AOSP -->
   <project path="art" name="platform/art" groups="pdk" remote="aosp" />
-  <project path="bionic" name="platform/bionic"sgroups="pdk" remote="gzosp" />
+  <project path="bionic" name="platform/bionic" groups="pdk" remote="aosp" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" remote="aosp" />
   <project path="build/soong" name="platform/build/song" groups="pdk,tradefed" remote="aosp" >
       <linkfile src="root.bp" dest="Android.bp" />
