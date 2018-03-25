@@ -41,7 +41,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <project path="frameworks/base" name="frameworks_base" remote="aosp" />
+  <project path="frameworks/base" name="platform/frameworks/base" remote="aosp" />
   <project path="packages/apps/RootlessPixelLauncher" name="packages_apps_RootlessPixelLauncher" remote="krexus" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="krexus" />
   <project path="system/core" name="android_system_core" remote="surge" revision="o-mr1" />
