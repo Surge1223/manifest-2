@@ -59,9 +59,9 @@
     <project path="vendor/gapps" name="vendor_gapps" clone-depth="1" remote="gitlab" revision="o-mr1" />
     
     <!-- Device Source -->
-    <project path="device/google/taimen" name="device_google_taimen" groups="pdk" remote="surge" revision="o+" />
-    <project path="device/google/wahoo" name="device_google_wahoo" groups="pdk" remote="surge" revision="o+" />
-    <project path="device/lge/bullhead" name="device_lge_bullhead" groups="pdk" remote="surge" revision="o+" />
+    <project path="device/google/taimen" name="device_google_taimen" groups="pdk" remote="krexus-friends" revision="o+" />
+    <project path="device/google/wahoo" name="device_google_wahoo" groups="pdk" remote="krexus-friends" revision="o+" />
+    <project path="device/lge/bullhead" name="device_lge_bullhead" groups="pdk" remote="krexus-friends" revision="o+" />
 
     <!-- Kernel Source -->
     <project  path="kernel/google/taimen" name="android_kernel_google_taimen" groups="device,angler,broadcom_pdk" remote="surge" revision="android-msm-wahoo-4.4-oreo-mr1" />
