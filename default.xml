@@ -507,9 +507,6 @@
   <!-- GZOSP CAF manifest -->
   <include name="gzosp_default.xml" />
 
-  <!-- GZOSP CAF manifest -->
-  <include name="caf_default.xml" />
-
   <!-- Krexus manifest -->
   <include name="krexus_default.xml" />
 
