@@ -292,6 +292,52 @@
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
   <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" remote="aosp" />
+  <project groups="pdk" name="hardware_broadcom_libbt" path="hardware/broadcom/libbt"/>
+  <project groups="pdk" name="hardware_broadcom_wlan" path="hardware/broadcom/wlan"/>
+  <project groups="pdk" name="hardware_interfaces" path="hardware/interfaces"/>
+  <project groups="pdk" name="hardware_libhardware_legacy" path="hardware/libhardware_legacy"/>
+  <project groups="qcom,qcom_audio" name="hardware_qcom_audio" path="hardware/qcom/audio/default"/>
+  <project groups="qcom,qcom_audio" name="hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" revision="8.1-caf-8084"/>
+  <project groups="qcom,qcom_audio" name="hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8916" revision="8.1-caf-8916"/>
+  <project groups="qcom,qcom_audio" name="hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8937" revision="8.1-caf-8937"/>
+  <project groups="qcom,qcom_audio" name="hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8952" revision="8.1-caf-8952"/>
+  <project groups="qcom,qcom_audio" name="hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8960" revision="8.1-caf-8960"/>
+  <project groups="qcom,qcom_audio" name="hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" revision="8.1-caf-8974"/>
+  <project groups="qcom,qcom_audio" name="hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8994" revision="8.1-caf-8994"/>
+  <project groups="qcom,qcom_audio" name="hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" revision="8.1-caf-8996"/>
+  <project groups="qcom,qcom_audio" name="hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8998" revision="8.1-caf-8998"/>
+  <project groups="pdk" name="hardware_qcom_bootctrl" path="hardware/qcom/bootctrl"/>
+  <project groups="qcom" name="hardware_qcom_bt" path="hardware/qcom/bt"/>
+  <project groups="qcom" name="hardware_qcom_bt" path="hardware/qcom/bt-caf" revision="8.1-caf"/>
+  <project groups="qcom_camera" name="hardware_qcom_camera" path="hardware/qcom/camera"/>
+  <project groups="pdk,qcom,qcom_display" name="hardware_qcom_display" path="hardware/qcom/display"/>
+  <project groups="pdk,qcom,qcom_display" name="hardware_qcom_display" path="hardware/qcom/display-caf/apq8084" revision="8.1-caf-8084"/>
+  <project groups="pdk,qcom,qcom_display" name="hardware_qcom_display" path="hardware/qcom/display-caf/msm8916" revision="8.1-caf-8916"/>
+  <project groups="pdk,qcom,qcom_display" name="hardware_qcom_display" path="hardware/qcom/display-caf/msm8937" revision="8.1-caf-8937"/>
+  <project groups="pdk,qcom,qcom_display" name="hardware_qcom_display" path="hardware/qcom/display-caf/msm8952" revision="8.1-caf-8952"/>
+  <project groups="pdk,qcom,qcom_display" name="hardware_qcom_display" path="hardware/qcom/display-caf/msm8960" revision="8.1-caf-8960"/>
+  <project groups="pdk,qcom,qcom_display" name="hardware_qcom_display" path="hardware/qcom/display-caf/msm8974" revision="8.1-caf-8974"/>
+  <project groups="pdk,qcom,qcom_display" name="hardware_qcom_display" path="hardware/qcom/display-caf/msm8994" revision="8.1-caf-8994"/>
+  <project groups="pdk,qcom,qcom_display" name="hardware_qcom_display" path="hardware/qcom/display-caf/msm8996" revision="8.1-caf-8996"/>
+  <project groups="pdk,qcom,qcom_display" name="hardware_qcom_display" path="hardware/qcom/display-caf/msm8998" revision="8.1-caf-8998"/>
+  <project name="hardware_qcom_fm" path="hardware/qcom/fm"/>
+  <project groups="qcom,qcom_gps" name="hardware_qcom_gps" path="hardware/qcom/gps"/>
+  <project groups="qcom,qcom_keymaster,pdk" name="hardware_qcom_keymaster" path="hardware/qcom/keymaster"/>
+  <project groups="qcom" name="hardware_qcom_media" path="hardware/qcom/media"/>
+  <project groups="qcom" name="hardware_qcom_media" path="hardware/qcom/media-caf/apq8084" revision="8.1-caf-8084"/>
+  <project groups="qcom" name="hardware_qcom_media" path="hardware/qcom/media-caf/msm8916" revision="8.1-caf-8916"/>
+  <project groups="qcom" name="hardware_qcom_media" path="hardware/qcom/media-caf/msm8937" revision="8.1-caf-8937"/>
+  <project groups="qcom" name="hardware_qcom_media" path="hardware/qcom/media-caf/msm8952" revision="8.1-caf-8952"/>
+  <project groups="qcom" name="hardware_qcom_media" path="hardware/qcom/media-caf/msm8960" revision="8.1-caf-8960"/>
+  <project groups="qcom" name="hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" revision="8.1-caf-8974"/>
+  <project groups="qcom" name="hardware_qcom_media" path="hardware/qcom/media-caf/msm8994" revision="8.1-caf-8994"/>
+  <project groups="qcom" name="hardware_qcom_media" path="hardware/qcom/media-caf/msm8996" revision="8.1-caf-8996"/>
+  <project groups="qcom" name="hardware_qcom_media" path="hardware/qcom/media-caf/msm8998" revision="8.1-caf-8998"/>
+  <project groups="qcom,pdk" name="hardware_qcom_power" path="hardware/qcom/power"/>
+  <project groups="qcom_wlan" name="hardware_qcom_wlan" path="hardware/qcom/wlan"/>
+  <project groups="qcom_wlan" name="hardware_qcom_wlan" path="hardware/qcom/wlan-caf" revision="8.1-caf"/>
+  <project groups="pdk" name="hardware_ril" path="hardware/ril"/>
+  <project groups="pdk" name="hardware_ril" path="hardware/ril-caf" revision="8.1-caf"/>
   <project path="frameworks/layoutlib" name="platform/frameworks/layoutlib" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk" remote="aosp" />
